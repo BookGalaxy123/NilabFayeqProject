@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nilab Faiq Watch Collection</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#0f172a,#1e293b,#312e81);
+    padding:40px;
+}
+
+h1{
+    text-align:center;
+    color:white;
+    margin-bottom:10px;
+    font-size:45px;
+}
+
+.creator{
+    text-align:center;
+    color:#d4af37;
+    font-size:22px;
+    margin-bottom:40px;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:350px;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(10px);
+    border-radius:25px;
+    overflow:hidden;
+    position:relative;
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:420px;
+    object-fit:cover;
+}
+
+.icons{
+    position:absolute;
+    top:15px;
+    right:15px;
+    display:flex;
+    gap:10px;
+}
+
+.icons i{
+    width:45px;
+    height:45px;
+    background:rgba(255,255,255,0.7);
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.icons i:hover{
+    background:#d4af37;
+    color:white;
+}
+
+.info{
+    padding:20px;
+    text-align:center;
+}
+
+.info h2{
+    color:white;
+    margin-bottom:10px;
+}
+
+.info p{
+    color:#d1d5db;
+    margin-bottom:20px;
+}
+
+button{
+    padding:14px 35px;
+    border:none;
+    border-radius:30px;
+    background:#d4af37;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:white;
+    color:black;
+}
+
+footer{
+    text-align:center;
+    color:white;
+    margin-top:50px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Luxury Watch Collection</h1>
+<div class="creator">Created By: Nilab Faiq</div>
+
+<div class="container">
+
+    <div class="card">
+
+        <div class="icons">
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+        </div>
+
+        <img src="watch1.jpg" alt="Watch">
+
+        <div class="info">
+            <h2>Classic Leather Watch</h2>
+            <p>Elegant design with premium leather strap.</p>
+            <button>Add To Cart</button>
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <div class="icons">
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+        </div>
+
+        <img src="watch2.JPG" alt="Watch">
+
+        <div class="info">
+            <h2>Black Steel Watch</h2>
+            <p>Luxury black metal watch for modern style.</p>
+            <button>Add To Cart</button>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2025 Nilab Faiq Watch Store
+</footer>
+
+</body>
+</html>
